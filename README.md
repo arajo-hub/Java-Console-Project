@@ -53,28 +53,28 @@
 ![](https://github.com/arajo-hub/Java-Console-Project/blob/main/date-modeling.png)
 
 #### 데이터 구성
-
-- Admin폴더
-  - 각 지점 폴더
-    - 일별 폴더
-      - 매출정보파일
-  - AdminList(회원 아이디, 비밀번호, 관리지점)파일
-- User폴더
-  - UserCard폴더 - 아이디별 카드정보 파일
-  - UserCoupon폴더 - 아이디별 쿠폰정보 파일
-  - UserInfo폴더 - 아이디별 회원등급, 포인트정보 파일
-  - UserList(회원 아이디, 비밀번호, 이름, 전화번호, 주소)파일
-- Snack폴더
-  - 각 지점 폴더
-    - 판매중인 스낵메뉴 파일
-- Movie폴더
-  - 영화정보파일
-- Theater폴더
-  - 각 지점 폴더
-    - 일별 상영내역파일
-- Reservation폴더
-  - Member폴더 - 전화번호별 예약내역파일
-  - Nonmeber폴더 - 전화번호별 예약내역파일
+ 본 프로젝트는 텍스트파일을 데이터베이스로 이용, 파일입출력 기능을 활용하여 구현한 영화관 콘솔 프로젝트입니다.
+- Admin
+  - 각 지점
+    - 일별
+      - 매출정보
+  - AdminList(회원 아이디, 비밀번호, 관리지점) 테이블
+- User
+  - UserCard - 아이디별 카드정보 테이블
+  - UserCoupon - 아이디별 쿠폰정보 테이블
+  - UserInfo - 아이디별 회원등급, 포인트정보 테이블
+  - UserList(회원 아이디, 비밀번호, 이름, 전화번호, 주소) 테이블
+- Snack
+  - 각 지점
+    - 판매중인 스낵메뉴 테이블
+- Movie
+  - 영화정보 테이블
+- Theater
+  - 각 지점
+    - 일별 상영내역 테이블
+- Reservation
+  - Member폴더 - 전화번호별 예약내역 테이블
+  - Nonmeber폴더 - 전화번호별 예약내역 테이블
 
 ### 개발일정
 
