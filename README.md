@@ -52,7 +52,7 @@
 
 기획 당시 작성한 다이어그램
 
-![](https://github.com/arajo-hub/Blog-MyDailylog/blob/master/data-modeling.png)
+![](https://github.com/arajo-hub/Java-Console-Project/blob/main/date-modeling.png)
 
 #### 데이터 계층구조
 
