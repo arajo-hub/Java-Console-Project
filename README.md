@@ -93,6 +93,20 @@
 |  구현단계  | - 영화별 상영내역조회 기능 및 상영정보 선택 기능, 영화정보상세조회 기능 구현<br />- 매점 조회 기능 구현 |
 | 마무리단계 |         - 발표용 PPT 제작<br />- 프로그램 화면 캡처          |
 
+#### 조아라 구현 코드 하이퍼링크
+
+1. [회원 - 현재 상영중인 영화 목록 조회 기능 및 영화 선택 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/member/MovieList.java)
+
+2. [회원 - 영화별 상영내역조회 기능 및 상영정보 선택 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/member/ChooseMovie.java)
+
+3. [비회원 - 현재 상영중인 영화 목록 조회 기능 및 영화 선택 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/nonmember/MovieList.java)
+
+4. [비회원 - 영화별 상영내역조회 기능 및 상영정보 선택 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/nonmember/ChooseMovie.java)
+
+5. [현재 상영중인 영화 정보 상세 조회 기능 구현](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/start/ViewMovieDetail.java)
+
+6. [매점 조회 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/snack/BuySnack.java)
+
 ### 소감
 
  처음으로 누군가와 팀을 이루어 작업한 첫 프로젝트였던만큼 완성 그 자체로 의의가 있지만, 개운함보다도 부족한 실력에 아쉬움이 많이 남습니다. 더 노력해야겠다고 다짐하는 계기가 되었습니다.
