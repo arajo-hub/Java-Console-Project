@@ -135,6 +135,7 @@ public class NoticeBoard implements Interface_NoticeBoard{
 				writer.write(noticeInfo);
 			}
 			writer.close();
+			System.out.println("\t\t수정했습니다.");
 		}catch(Exception e) {
 			System.out.println("NoticeBoard.modifyPost()");
 		}
