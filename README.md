@@ -123,27 +123,27 @@
 
 ![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항목록.png)
 
-8. (고객 공지사항 상세 조회 기능 )[https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/NoticeBoard.java]
+8. [고객 공지사항 상세 조회 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/NoticeBoard.java)
 
 ![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항%20상세(고객).png)
 
-9. (관리자 공지사항 목록 조회 기능)[https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/notice/showNoticeListAdmin.java]
+9. [관리자 공지사항 목록 조회 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/notice/showNoticeListAdmin.java)
 
 ![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항목록.png)
 
-10. (관리자 공지사항 상세 조회 기능)[https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/NoticeBoard.java]
+10. [관리자 공지사항 상세 조회 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/NoticeBoard.java)
 
 ![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항%20상세(관리자).png)
 
-11. (관리자 공지사항 등록 기능)[https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/Notice.java]
+11. [관리자 공지사항 등록 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/Notice.java)
 
 ![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항%20등록.png)
 
-12. (관리자 공지사항 수정 기능)[https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/NoticeBoard.java]
+12. [관리자 공지사항 수정 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/NoticeBoard.java)
 
 ![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항%20수정.png)
 
-13. (관리자 공지사항 삭제 기능)[https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/NoticeBoard.java]
+13. [관리자 공지사항 삭제 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/NoticeBoard.java)
 
 ![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항%20삭제.png)
 
