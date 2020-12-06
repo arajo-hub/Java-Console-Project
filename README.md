@@ -93,7 +93,7 @@
 |  구현단계  | - 영화별 상영내역조회 기능 및 상영정보 선택 기능, 영화정보상세조회 기능 구현<br />- 매점 조회 기능 구현 |
 | 마무리단계 |         - 발표용 PPT 제작<br />- 프로그램 화면 캡처          |
 
-#### 조아라 구현 코드 하이퍼링크
+#### 조아라 구현 코드
 
 1. [회원 - 현재 상영중인 영화 목록 조회 기능 및 영화 선택 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/member/MovieList.java)
 
@@ -118,6 +118,34 @@
 6. [매점 조회 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/snack/BuySnack.java)
 
 ![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/스낵/스낵메뉴%20조회.png)
+
+7. [고객 공지사항 목록 조회 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/notice/showNoticeList.java)
+
+![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항목록.png)
+
+8. (고객 공지사항 상세 조회 기능 )[https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/NoticeBoard.java]
+
+![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항%20상세(고객).png)
+
+9. (관리자 공지사항 목록 조회 기능)[https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/notice/showNoticeListAdmin.java]
+
+![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항목록.png)
+
+10. (관리자 공지사항 상세 조회 기능)[https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/NoticeBoard.java]
+
+![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항%20상세(관리자).png)
+
+11. (관리자 공지사항 등록 기능)[https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/Notice.java]
+
+![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항%20등록.png)
+
+12. (관리자 공지사항 수정 기능)[https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/NoticeBoard.java]
+
+![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항%20수정.png)
+
+13. (관리자 공지사항 삭제 기능)[https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/NoticeBoard.java]
+
+![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항%20삭제.png)
 
 ### 소감
 
