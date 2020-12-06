@@ -73,8 +73,8 @@
   - 각 지점
     - 일별 상영내역 테이블
 - Reservation
-  - Member폴더 - 전화번호별 예약내역 테이블
-  - Nonmeber폴더 - 전화번호별 예약내역 테이블
+  - Member - 전화번호별 예약내역 테이블
+  - Nonmeber - 전화번호별 예약내역 테이블
 
 ### 개발일정
 
@@ -97,15 +97,27 @@
 
 1. [회원 - 현재 상영중인 영화 목록 조회 기능 및 영화 선택 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/member/MovieList.java)
 
+![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/영화별예매/영화별예매%20-%20영화별조회.png)
+
 2. [회원 - 영화별 상영내역조회 기능 및 상영정보 선택 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/member/ChooseMovie.java)
+
+![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/영화별예매/상영번호%20선택.png)
 
 3. [비회원 - 현재 상영중인 영화 목록 조회 기능 및 영화 선택 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/nonmember/MovieList.java)
 
+![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/영화별예매/영화별예매%20-%20영화별조회.png)
+
 4. [비회원 - 영화별 상영내역조회 기능 및 상영정보 선택 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/nonmember/ChooseMovie.java)
+
+![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/영화별예매/상영번호%20선택.png)
 
 5. [현재 상영중인 영화 정보 상세 조회 기능 구현](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/start/ViewMovieDetail.java)
 
+![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/영화정보상세보기.png)
+
 6. [매점 조회 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/snack/BuySnack.java)
+
+![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/스낵/스낵메뉴%20조회.png)
 
 ### 소감
 

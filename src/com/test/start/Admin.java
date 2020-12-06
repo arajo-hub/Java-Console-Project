@@ -10,6 +10,9 @@ import java.util.Calendar;
 import java.util.Random;
 import java.util.Scanner;
 
+import com.test.notice.showNoticeListAdmin;
+
+import data.Notice;
 import data.Path;
 //장진영 구현 - 관리자로그인
 public class Admin {
@@ -26,16 +29,37 @@ public class Admin {
 			System.out.println();
 			System.out.println("===============================================================================================");
 			System.out.println("\t\t\t1. 매출보기");
-			System.out.println("\t\t\t2. 영화 파일 생성");
+			System.out.println("\t\t\t2. 공지사항 확인/등록");
+			System.out.println("\t\t\t3. 영화 파일 생성");
+			System.out.println("\t\t\t4. 뒤로가기");
 			System.out.println("-----------------------------------------------------------------------------------------------");
 			System.out.print("\t\t번호를 선택하세요(ex: 1) : ");
-		
 			int sel = scan.nextInt();
-			if(sel == 1)
+
+			if(sel == 1) {
 				ViewSales(branch);
-			else if(sel == 2)
+			}else if(sel == 2) {
+				boolean subLoop=true;
+				while(subLoop) {
+					
+					String choice=scan.nextLine();
+					if (choice.equals("1")) { // 공지사항 확인(수정/삭제)
+						showNoticeListAdmin.main(null);
+					}else if (choice.equals("2")) { // 공지사항 등록
+						Notice newNotice=new Notice(branch);
+						showNoticeListAdmin.noticeBoard.addPost(newNotice);
+					}else if (choice.equals("3")) {
+						break;
+					}else if (choice.equals("9")) {
+						System.exit(0);
+					}
+					noticeMenu(branch); // 1. 공지사항 확인(수정/삭제) 2. 공지사항 등록 3. 뒤로가기 9. 종료
+				}	
+			}else if(sel == 3) {
 				MakeMovieFile(branch);
-			else if(sel == 3)
+			}else if(sel == 4) {
+				Start.main(null);;
+			}else if(sel == 9)
 				System.exit(0);
 		}
 		//상영 목록을 만듬
@@ -126,6 +150,20 @@ public class Admin {
 		}
 		System.out.println("\t\t\t생성 완료");
 
+	}
+	
+	private static void noticeMenu(String branch) {
+		System.out.println("===============================================================================================");
+		System.out.println("[ 쌍 용 영 화 관 ]");
+		System.out.printf("\t\t\t\t%s 관리자\n",branch);
+		System.out.println();
+		System.out.println("===============================================================================================");
+		System.out.println("\t\t\t1. 공지사항 확인(수정/삭제)");
+		System.out.println("\t\t\t2. 공지사항 등록");
+		System.out.println("\t\t\t3. 뒤로가기");
+		System.out.println("\t\t\t9. 종료");
+		System.out.println("-----------------------------------------------------------------------------------------------");
+		System.out.print("\t\t번호를 선택하세요(ex: 1) : ");
 	}
 }
 
