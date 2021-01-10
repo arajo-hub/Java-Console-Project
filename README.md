@@ -57,7 +57,7 @@
 
 기획 당시 작성한 다이어그램
 
-![](https://github.com/arajo-hub/Java-Console-Project/blob/main/date-modeling.png)
+![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/date-modeling.png)
 
 #### 데이터 구성
  본 프로젝트는 텍스트파일을 데이터베이스로 이용, 파일입출력 기능을 활용하여 구현한 영화관 콘솔 프로젝트입니다.
