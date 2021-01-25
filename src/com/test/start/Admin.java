@@ -10,7 +10,7 @@ import java.util.Calendar;
 import java.util.Random;
 import java.util.Scanner;
 
-import com.test.notice.showNoticeListAdmin;
+import com.test.notice.ShowNoticeListAdmin;
 
 import data.Notice;
 import data.Path;
@@ -44,10 +44,10 @@ public class Admin {
 					
 					String choice=scan.nextLine();
 					if (choice.equals("1")) { // 공지사항 확인(수정/삭제)
-						showNoticeListAdmin.main(null);
+						ShowNoticeListAdmin.main(null);
 					}else if (choice.equals("2")) { // 공지사항 등록
 						Notice newNotice=new Notice(branch);
-						showNoticeListAdmin.noticeBoard.addPost(newNotice);
+						ShowNoticeListAdmin.noticeBoard.addPost(newNotice);
 					}else if (choice.equals("3")) {
 						break;
 					}else if (choice.equals("9")) {

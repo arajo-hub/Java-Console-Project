@@ -5,8 +5,6 @@ import java.io.FileWriter;
 import java.util.Calendar;
 import java.util.Scanner;
 
-import com.test.notice.showNoticeList;
-
 import data.Path;
 
 // 공지사항 게시판

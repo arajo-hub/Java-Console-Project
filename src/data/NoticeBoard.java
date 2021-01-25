@@ -11,8 +11,6 @@ import java.util.Calendar;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-import com.test.notice.showNoticeList;
-
 public class NoticeBoard implements Interface_NoticeBoard{
 	
 	private static LinkedList<Notice> board;

@@ -12,7 +12,7 @@ import data.Path;
 import data.ScreenInfo;
 import data.ScreenInfoDetail;
 
-public class createNoticeboard {
+public class CreateNoticeBoard {
 
 	public static NoticeBoard newBoard=new NoticeBoard();
 	

@@ -11,10 +11,9 @@ import data.Notice;
 import data.NoticeBoard;
 import data.Path;
 
-public class showNoticeListAdmin {
+public class ShowNoticeList {
 	
 	private static Scanner sc=new Scanner(System.in);
-	public static NoticeBoard noticeBoard=createNoticeboard.main(null);
 	
 	public static void main(String[] args) {
 		
@@ -22,35 +21,28 @@ public class showNoticeListAdmin {
 		while(loop) {
 			
 			// 헤더 출력
+			System.out.println();
 			showHeader();
-			noticeBoard.showPostTitle();
+			ShowNoticeListAdmin.noticeBoard.showPostTitle();
 			// 선택메뉴 입력
-			String sel=showMenu();
+			String sel=showMenuForCustomer();
+			int PostNum=Integer.parseInt(sel)-1;
 			if (sel.equals("0")) {
 				System.out.println();
-				break;
+				loop=false;
+			}else if (PostNum>=ShowNoticeListAdmin.noticeBoard.getBoardLength()
+					|| PostNum<0){
+				loop=false;
 			}else {
-				int PostNum=Integer.parseInt(sel)-1;
-				if (PostNum>=noticeBoard.getBoardLength()||PostNum<0) {
-					System.out.println("\t\t상세조회할 공지사항이 없습니다.");
-					showNoticeListAdmin.main(null);
-				}else {
-					PostNum=noticeBoard.getBoardLength()-PostNum-1;
-					noticeBoard.showPostForAdmin(PostNum);
-				}
+				PostNum=ShowNoticeListAdmin.noticeBoard.getBoardLength()-PostNum-1;
+				ShowNoticeListAdmin.noticeBoard.showPostForCustomer(PostNum);
 				boolean subLoop=true;
 				while(subLoop) {
 					String choice=sc.nextLine();
-					if (choice.equals("1")) { // 공지사항 수정
-						noticeBoard.modifyPost(PostNum);
-					}else if (choice.equals("2")) { // 공지사항 삭제
-						noticeBoard.deletePost(PostNum);
-					}else if (choice.equals("0")) { // 뒤로가기
+					if (choice.equals("0")) {
 						subLoop=false;
-					}else{
-						System.out.printf("\t\t뒤로 가려면 0을 입력하세요...");
 					}
-					
+					System.out.printf("\t\t뒤로 가려면 0을 입력하세요...");
 				}
 			}
 			
@@ -65,17 +57,16 @@ public class showNoticeListAdmin {
 		System.out.println();
 		System.out.println("===============================================================================================");
 	}
-
 	
-	public static String showMenu(){
-			
+	public static String showMenuForCustomer(){
+		
 		System.out.println("===============================================================================================");
 		System.out.println("\t\t뒤로 가려면 0을 입력하세요...");
 		System.out.printf("\t\t번호를 선택해주세요(ex: 1) : ");
 		
-		String selectNum=sc.nextLine(); 
+		String selectMenu=sc.nextLine(); 
 		
-		return selectNum;
+		return selectMenu;
 	}
 	
 

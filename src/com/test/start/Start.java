@@ -3,7 +3,7 @@ package com.test.start;
 import java.util.Scanner;
 
 import com.test.nonmember.BookingMovie;
-import com.test.notice.showNoticeList;
+import com.test.notice.ShowNoticeList;
 
 //장진영 구현 -> 초기화면
 public class Start {
@@ -35,7 +35,7 @@ public class Start {
 			}	//F7i2jmWPs■JSG6CJSf5■쫈뫱■01013848199■서울특별시 성북구 성북동 271-471
 			switch(sel) {
 				case "0"://공지사항
-					showNoticeList.main(null);
+					ShowNoticeList.main(null);
 					break;
 				case "1"://영화정보보기
 					ViewMovieDetail.main(null);
