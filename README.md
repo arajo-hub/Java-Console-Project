@@ -130,7 +130,7 @@
 
 ![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/스낵/스낵메뉴%20조회.png)
 
-7. [고객 공지사항 목록 조회 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/notice/showNoticeList.java)
+7. [고객 공지사항 목록 조회 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/notice/ShowNoticeList.java)
 
 ![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항목록.png)
 
@@ -138,7 +138,7 @@
 
 ![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항%20상세(고객).png)
 
-9. [관리자 공지사항 목록 조회 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/notice/showNoticeListAdmin.java)
+9. [관리자 공지사항 목록 조회 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/notice/ShowNoticeListAdmin.java)
 
 ![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항목록.png)
 
