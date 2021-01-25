@@ -1,8 +1,13 @@
 # 영화관 콘솔 프로젝트
  본 프로젝트는 텍스트파일을 데이터베이스로 이용, 파일입출력 기능을 활용하여 구현한 영화관 콘솔 프로젝트입니다.
+
+---
+
 ### 참여
 
-조아라 장진영 윤지봉 임채원 정경화 조혜승
+조아라 장진영(조장) 윤지봉 임채원 정경화 조혜승
+
+---
 
 ### 구현 목표 기능
 
@@ -34,7 +39,7 @@
 
 3. 게시판 : 공지사항 작성 및 삭제, 컴플레인 조회 및 삭제, 이벤트 작성 및 삭제, 리뷰 삭제
 
-
+---
 
 ### 개발환경
 
@@ -44,13 +49,15 @@
 
 개발언어 : JAVA(JDK 1.8)
 
+---
+
 ### 데이터구조
 
 #### 데이터모델링
 
 기획 당시 작성한 다이어그램
 
-![](https://github.com/arajo-hub/Java-Console-Project/blob/main/date-modeling.png)
+![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/date-modeling.png)
 
 #### 데이터 구성
  본 프로젝트는 텍스트파일을 데이터베이스로 이용, 파일입출력 기능을 활용하여 구현한 영화관 콘솔 프로젝트입니다.
@@ -76,6 +83,8 @@
   - Member - 전화번호별 예약내역 테이블
   - Nonmeber - 전화번호별 예약내역 테이블
 
+---
+
 ### 개발일정
 
 총 16일 소요
@@ -84,6 +93,8 @@
 | :------------: | :----------------: | :----------------: | :-----------------------------------------------: |
 | 11월 3일 ~ 4일 |  11월 5일 ~ 13일   |  11월 14일 ~ 18일  |                 11월 19일 ~ 20일                  |
 |    2일 소요    | 7일 소요(주말제외) | 5일 소요(주말포함) |                     2일 소요                      |
+
+---
 
 ### 담당업무
 
@@ -123,29 +134,31 @@
 
 ![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항목록.png)
 
-8. (고객 공지사항 상세 조회 기능 )[https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/NoticeBoard.java]
+8. [고객 공지사항 상세 조회 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/NoticeBoard.java)
 
 ![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항%20상세(고객).png)
 
-9. (관리자 공지사항 목록 조회 기능)[https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/notice/showNoticeListAdmin.java]
+9. [관리자 공지사항 목록 조회 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/com/test/notice/showNoticeListAdmin.java)
 
 ![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항목록.png)
 
-10. (관리자 공지사항 상세 조회 기능)[https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/NoticeBoard.java]
+10. [관리자 공지사항 상세 조회 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/NoticeBoard.java)
 
 ![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항%20상세(관리자).png)
 
-11. (관리자 공지사항 등록 기능)[https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/Notice.java]
+11. [관리자 공지사항 등록 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/Notice.java)
 
 ![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항%20등록.png)
 
-12. (관리자 공지사항 수정 기능)[https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/NoticeBoard.java]
+12. [관리자 공지사항 수정 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/NoticeBoard.java)
 
 ![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항%20수정.png)
 
-13. (관리자 공지사항 삭제 기능)[https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/NoticeBoard.java]
+13. [관리자 공지사항 삭제 기능](https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/NoticeBoard.java)
 
 ![](https://github.com/arajo-hub/Java-Console-Project/blob/main/document/%5B08%5D모든%20화면%20스크린샷/공지사항/공지사항%20삭제.png)
+
+---
 
 ### 소감
 
